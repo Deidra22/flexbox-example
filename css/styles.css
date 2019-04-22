@@ -21,6 +21,10 @@ h1{
     font-size: 100px;
 }
 
+.box-2{
+    align-self: flex-start;
+}
+
 .box-1, .box-2{
     width: 300px;
 }
