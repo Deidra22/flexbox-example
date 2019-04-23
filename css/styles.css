@@ -55,3 +55,18 @@ h1{
 .box-4{
     background-color: indigo;
 }
+
+.block-3{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start; 
+    height: 650px;
+}
+
+.box-1-a, .box-2-a{
+    width: 400px;
+}
+
+.box-3-a, .box-4-a{
+    width: 600px;
+}
