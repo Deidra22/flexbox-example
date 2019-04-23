@@ -2,14 +2,17 @@ h1{
     text-align: center;
 }
 
+.block-style{
+    height:600px;
+    border: thick solid red;
+    background-color: orange;
+}
+
 .block-1{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    height:600px;
-    border: thick solid red;
-    background-color: orange;
 }
 
 .box{
@@ -23,6 +26,13 @@ h1{
 
 .box-2{
     align-self: flex-start;
+}
+
+.block-2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 700px;
 }
 
 .box-1, .box-2{
